@@ -27,21 +27,16 @@
                     <div class="col-md-12">
                         <div class="hero-container">
                             <div class="hero-content">
-                                {% if site.title != '' %}
-                                <h1 class="text-center">Site.Title</h1>
-                                {% endif %}
-                                {% if site.description != '' or site.enable_contact == true %}
+                                <h1 class="text-center">Hello there!</h1>
                                 <p class="text-center">
-                                {% if site.description != '' %}
-                                {{site.description}}
-                                {% endif %}
-                                {% if site.enable_contact == true %}
-                                {% include contact.html %}
-                                {% include contact-modal.html %}
-                                {% endif %}
+                                    Jacob here!<br/>
+                                    I'm 👨‍💻 iOS Developer | 🕸 Web Developer. <br/>
+                                    Glad you stopped by.
                                 </p>
-                                {% endif %}
                                 <div class="hero-buttons">
+                                    {% for hero_button in site.hero_buttons %}
+                                    <a href="{{ hero_button.link }}" target="_blank"><button class="btn btn-default btn-lg"><i class="fa {{ hero_button.icon }} fa-lg"></i>{{ hero_button.button_title }}</button></a>
+                                    {% endfor %}
                                 </div>
                             </div>
                         </div>
@@ -55,26 +50,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            {% if site.section_title != '' %}
-                            <h2 class="section-title text-center">{{ site.section_title }}</h2>
-                            {% endif %}
-                            {% if site.section_subtitle != '' %}
-                            <p class="section-subtitle text-center">{{ site.section_subtitle }}</p>
-                            {% endif %}
-
+                            <h2 class="section-title text-center">Latest Work</h2>
+                            <p class="section-subtitle text-center">I have experience in a number of different areas. Have a look at what I'm working on right now.</p>
                             <div class="break"></div>
-
-                            <!-- {% for post in paginator.posts %}
-                            <div class="wow fadeIn">
-                            {% if post.position == "left" %}
-                                {% include content-left.html %}
-                            {% endif %}
-
-                            {% if post.position == "right" %}
-                                {% include content-right.html %}
-                            {% endif %}
-                            </div>
-                            {% endfor %} -->
                             {% if site.posts.size > 0 %}
                             {% for post in site.posts %}
                                 {% if post.position == "left" %}
@@ -84,35 +62,6 @@
                                 {% include content-right.html %}
                                 {% endif %}
                             {% endfor %}
-                            {% endif %}
-                            {% if paginator.total_pages > 1 %}
-                            <nav class="pagination-wrap">
-                                <ul class="pagination">
-                                    {% if paginator.previous_page %}
-                                    <li>
-                                        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
-                                            <span aria-hidden="true">&laquo;</span>
-                                        </a>
-                                    </li>
-                                    {% endif %}
-
-                                    {% if paginator.page_trail %}
-                                    {% for trail in paginator.page_trail %}
-                                        <li {% if page.url == trail.path %}class="active"{% endif %}>
-                                            <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
-                                        </li>
-                                    {% endfor %}
-                                    {% endif %}
-
-                                    {% if paginator.next_page %}
-                                    <li>
-                                        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next">
-                                            <span aria-hidden="true">&raquo;</span>
-                                        </a>
-                                    </li>
-                                    {% endif %}
-                                </ul>
-                            </nav>
                             {% endif %}
                         </div>
                     </div>
