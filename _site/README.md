@@ -1,1 +1,0 @@
-# jacobearlp.github.io
