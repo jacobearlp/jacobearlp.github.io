@@ -1,30 +1,13 @@
 ---
-layout: post
-title:  "Welcome to Jekyll 2!"
-date:   2023-01-20 18:16:35 +0800
-categories: jekyll update
-position: left
+position: right
+title: 'NativeCamp.'
+date: 2015-06-01 15:56:00
+tags: iOS Android Angular PHP WebRTC
+featured_image: '/img/posts/02_weathercast-1130x864-2x.png'
+button_icon: 'github'
+button_text: 'Visit Project'
+project_description: 'NativeCamp is an ESL online tutoring school in Japan. Lessons are provided via unique language platform. NativeCamp is one of the rare online schools in the world that does not use Skype. FOUNDED. 2015.'
+role_description: 'This was how my career started. I participated in the development of the project with my first employer (FDCI). I worked as a front-end and back-end developer from creating the API, adding new features, and fixing bugs.'
+website_url: 'https://nativecamp.net'
+appstore_url: 'https://apps.apple.com/us/app/native-camp/id1039733719'
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

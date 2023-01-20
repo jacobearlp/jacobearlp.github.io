@@ -1,10 +1,27 @@
 <div class="content">
   <h3 class="title">{{ post.title }}</h3>
 
-  <p class="excerpt">{{ post.lead_text }}</p>
+  <!-- <p class="excerpt">
+    AntiLand iOS application development and maintenance.
 
-  {% if post.project_link != empty %}
-  <a href="{{ post.project_link }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-{{post.button_icon}} fa-lg"></i>{{post.button_text}}</button></a>
+    AntiLand is an anonymous chat room app with 30,000,000+ people meeting new friends, confessing, or searching for partners to date online.
+    
+    MY ROLE:
+    As a solo developer, I built version 4.o of the app and continuously work on new feature implementation like stickers for chat users, in-app currency, etc.
+    
+    I'm continuing to support app maintenance and started working as part of iOS team on the redesign and new UI rebuilt using SwiftUI.
+    
+    TECHNOLOGIES:
+    Swift, In-App purchases, Push Notifications, CoreData, PubNub
+  </p> -->
+  <p class="excerpt">{{ post.project_description }}</p>
+  <p class="excerpt">MY ROLE:<br/>{{ post.role_description }}</p>
+
+  {% if post.website_url != empty %}
+  <a href="{{ post.website_url }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-chrome fa-lg"></i>Visit website</button></a>
+  {% endif %}
+  {% if post.appstore_url != empty %}
+  <a href="{{ post.appstore_url }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-apple fa-lg"></i>Visit app</button></a>
   {% endif %}
 
   {% if post.tags != empty %}
@@ -14,12 +31,4 @@
     {% endfor %}
   </div>
   {% endif %}
-
-  <!-- {% if post.categories != empty %}
-  <div class="categories">
-    {% for category in post.categories %}
-      <span>{{ category }}</span>
-    {% endfor %}
-  </div>
-  {% endif %} -->
 </div>
