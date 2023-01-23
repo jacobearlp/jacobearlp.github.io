@@ -3,7 +3,7 @@ position: left
 title: 'MacheTalk Viewer'
 date: 2017-01-01 15:56:00
 tags: iOS Android Angular PHP WebRTC Wowza Swift UIKit MVC
-featured_image: '/img/posts/02_weathercast-1130x864-2x.png'
+featured_image: '/assets/img/machetalk-viewer.png'
 button_icon: 'github'
 button_text: 'Visit Project'
 project_description: 'A live viewing application that allows you to have a "two-handed" conversation like a video call ♪ Enjoy real-time communication!'

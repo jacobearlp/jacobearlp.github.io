@@ -3,7 +3,7 @@ position: left
 title: 'MacheTalk Live'
 date: 2017-01-01 15:56:00
 tags: iOS Android Angular PHP WebRTC Wowza Swift UIKit MVC
-featured_image: '/img/posts/02_weathercast-1130x864-2x.png'
+featured_image: '/assets/img/machetalk-liver.png'
 button_icon: 'github'
 button_text: 'Visit Project'
 project_description: 'Live streaming app that makes friends with a little killing time! Please feel free to contact us if you have any questions.'
