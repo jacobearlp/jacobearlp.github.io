@@ -33,14 +33,17 @@ linkedin_username: "jacob-earl-p-9b06a8b3"
 # Hero buttons
 hero_buttons:
     - link: https://linkedin.com/in/jacob-earl-p-9b06a8b3
-      icon: fa-linkedin
+      icon: fa-brands fa-linkedin
       button_title: "LinkedIn"
     - link: https://github.com/jacobearlp
-      icon: fa-github
+      icon: fa-brands fa-github
       button_title: "Github"
     - link: https://instagram.com/_brauliozz
-      icon: fa-instagram
+      icon: fa-brands fa-instagram
       button_title: "Instagram"
+    - link: /resume/
+      icon: fa-duotone fa-file-user
+      button_title: "Resume"
 
 # Build settings
 theme: minima

@@ -1,0 +1,38 @@
+.main.container { 
+    padding-left: 60px;
+    padding-right: 40px;
+}
+
+#personal_info { 
+    
+}
+
+#personal_info > ul { 
+    list-style-type: none;
+}
+
+.subinformation { 
+    font-size: 17px;
+    display: contents;
+}
+
+.row_header { 
+    color: #237bc8;
+    font-family: "Open Sans", sans-serif;
+}
+
+.list { 
+    list-style: "-    ";
+}
+
+.company_row { 
+    margin-bottom: 30px;
+}
+
+.company_row span { 
+    font-size: small;
+}
+
+.company_row .sub_description { 
+    font-size: 15px;
+}
