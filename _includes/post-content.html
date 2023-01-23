@@ -3,12 +3,11 @@
   <p class="excerpt">{{ post.project_description }}</p>
   <h4 class="excerpt">My Role:</h4>
   <p class="excerpt">{{ post.role_description }}</p>
-
   {% if post.website_url != empty %}
-  <a href="{{ post.website_url }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-chrome fa-lg"></i>Visit website</button></a>
+  <a href="{{ post.website_url }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-brands fa-chrome fa-lg"></i>Visit website</button></a>
   {% endif %}
   {% if post.appstore_url != empty %}
-  <a href="{{ post.appstore_url }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-apple fa-lg"></i>Visit app</button></a>
+  <a href="{{ post.appstore_url }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-brands fa-app-store fa-lg"></i>Visit app</button></a>
   {% endif %}
 
   {% if post.tags != empty %}
