@@ -38,9 +38,9 @@ hero_buttons:
     - link: https://github.com/jacobearlp
       icon: fa-brands fa-github
       button_title: "Github"
-    - link: https://instagram.com/_brauliozz
-      icon: fa-brands fa-instagram
-      button_title: "Instagram"
+    # - link: https://instagram.com/_brauliozz
+    #   icon: fa-brands fa-instagram
+    #   button_title: "Instagram"
     - link: /resume/
       icon: fa-duotone fa-file-user
       button_title: "Resume"
