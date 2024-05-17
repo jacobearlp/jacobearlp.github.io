@@ -1,10 +1,9 @@
 .main.container { 
-    padding-left: 60px;
-    padding-right: 40px;
+    padding: 0 60px 60px;
 }
 
 #personal_info { 
-    
+    margin-top: 2.5rem;
 }
 
 #personal_info > ul { 
@@ -22,7 +21,8 @@
 }
 
 .list { 
-    list-style: "-    ";
+    list-style: "- ";
+    padding-left: 1rem;
 }
 
 .company_row { 
@@ -35,4 +35,40 @@
 
 .company_row .sub_description { 
     font-size: 15px;
+}
+
+.blue-color { 
+    color: #3c78d8;
+}
+
+.gray-color { 
+    color: #384347;
+}
+
+.card-row { 
+    margin-top: 1rem;
+}
+
+.card-row > h2 { 
+    display: inline-block;
+    border-bottom: 0.1rem solid #384347;
+    width: 100%;
+}
+
+hr.new1 { 
+    border-top: 0.2rem dashed lightgray;
+}
+
+.card-row > hr { 
+    border-top: 0.2rem dashed lightgray;
+}
+
+.item > h3 {
+    margin-top: -7px;
+}
+
+.skill-item { 
+    display: inline-block;
+    border-bottom: 0.1rem solid #384347;
+    margin: 0 5px;
 }

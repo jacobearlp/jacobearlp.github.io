@@ -14,6 +14,18 @@
         <link rel="stylesheet" href="{{ "/assets/css/animate.min.css" | prepend: site.baseurl }}">
         <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
         <link rel="stylesheet" href="{{ "/assets/css/resume.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | prepend: site.baseurl }}">
+        <style>
+            body {
+                font-family: 'Open Sans';
+                font-size: 12px;
+            }
+
+            h1, h2, h3 { 
+                font-weight: bold;
+                color: #384347;
+            }
+        </style>
     </head>
     <body>
         <div class="main container" id="top">
@@ -26,157 +38,234 @@
                 <h1 class="page-title">
                     <div class="page-title__text">Jacob Earl G. Potolin</div>
                 </h1>
-                <ul class="subinformation">
-                    <li>Cebu City, Philippines 6000</li>
-                    <li>0961-620-0433</li>
-                    <li>jake.braul@gmail.com</li>
-                    <li>https://jacobearlp.github.io/</li>
-                </ul>
-            </div>
-            <!-- Skill Highlights row -->
-            <div id="skill_highlight_row">
-                <h3 class="row_header">SKILL HIGHLIGHT</h3>
-                <ul class="list">
-                    <li>Agile/Scrum methodology</li>
-                    <li>Swift</li>
-                    <li>SwiftUI</li>
-                    <li>UIKit</li>
-                    <li>MVVM</li>
-                    <li>MVC</li>
-                    <li>ReactiveSwift</li>
-                    <li>Cocoapods</li>
-                    <li>PHP</li>
-                    <li>HTML/CSS/Javascript</li>
-                    <li>Angular</li>
-                </ul>
-            </div>
-            <!-- Work Experience row -->
-            <div id="work_experience_row">
-                <h3 class="row_header">WORK EXPERIENCE</h3>
-                <div class="company_row">
-                    <h4>iOS Developer — Quantrics Enterprises Inc., <span>Taytay, Rizal, Philippines</span></h4>
-                    <span class="sub_description">MAY 2023 — PRESENT</span>
-                    <ul class="list">
-                        <li>Collaborated with the product team to understand requirements and business specifications.</li>
-                        <li>Examine and evaluate other developer's code to identify any issues, provide any feedback, and ensure that the code meets quality standards.</li>
-                        <li>Presented demos to stakeholders to review and discuss the user stories completed during each sprint.</li>
-                    </ul>
+                <h2 class="blue-color">iOS Developer</h2>
+                <div class="row">
+                    <div class="col-sm-4">
+                        📞 0961-620-0433
+                    </div>
+                    <div class="col-sm-4">
+                        📬 jake.braul@gmail.com
+                    </div>
+                    <div class="col-sm-4">
+                        🔗 linkedin.com/in/jacob-earl-p-9b06a8b3/
+                    </div>
                 </div>
-                <div class="company_row">
-                    <h4>iOS Developer — Domestic Cat Software, <span>Melbourne, Victoria, Australia</span></h4>
-                    <span class="sub_description">SEPTEMBER 2022 — JANUARY 2023</span>
-                    <ul class="list">
-                        <li>Translating technical specifications, and/or logical and physical design into code.</li>
-                        <li>Following the software development methodology and architecture standards.</li>
-                        <li>Identifying and resolving the issues that arise in the production and/or development phase.</li>
-                    </ul>
-                </div>
-                <!-- <div class="company_row">
-                    <h4>iOS Developer — Freelance</h4>
-                    <span class="sub_description">JUNE 2022 - PRESENT</span>
-                    <p class="sub_description">
-                        Design and build application for iOS.
-                        Collaborate with the back-end team to define, design, and ship new features.
-                        Ensure the performance, quality, and responsiveness of application.
-                        Do code review before merging a pull request.
-                    </p>
-                </div> -->
-                <div class="company_row">
-                    <h4>iOS Developer — Cody Web Development  Inc., <span>Cebu City, Philippines</span></h4>
-                    <span class="sub_description">AUGUST 2020 — AUGUST 2022</span>
-                    <ul class="list">
-                        <li>Worked as Solo Developer or with Team on a project.</li>  
-                        <li>Translating technical specifications, and/or logical and physical design into code.</li>  
-                        <li>Collaborate with the team to define, design, and ship new features.</li>  
-                        <li>Ensure the performance, quality, and responsiveness of application.</li>  
-                        <li>Do code review before merging a pull request.</li>  
-                        <li>Published app to AppStore using Fastlane.</li>  
-                    </ul>
-                </div>
-                <div class="company_row">
-                    <h4>Web Developer / iOS Developer — Forty Degrees Celsius Inc., <span>Cebu City, Philippines </span></h4>
-                    <span class="sub_description">JUNE 2015 — AUGUST 2020</span>
-                    <ul class="list">
-                        <li>Developed a few apps mostly iOS, Web, and backend.</li>
-                        <li>Created API endpoints and ensuring that it works efficiently when used by Web, iOS, and Android platforms.  </li>
-                        <li>Collaborate with the team to define, design, and ship new features.</li>
-                        <li>Ensure the performance, quality, and responsiveness of application.  </li>
-                        <li>Do code review before merging a pull request.  </li>
-                        <li>Project maintenance and bug fixes. </li>
-                    </ul>
+                <div class="row">
+                    <div class="col-sm-4">
+                        📍 Cebu City, Philippines
+                    </div>
+                    <div class="col-sm-4">
+                        🔗 jacobearlp.github.io
+                    </div>
                 </div>
             </div>
-            <!-- Projects row -->
-            <div id="projects_row">
-                <h3 class="row_header">PROJECTS</h3>
-                <div class="company_row">
-                    <h4>Bell Mobile <span>(Quantrics Enterprises Inc.)</span></h4>
-                    <span class="sub_description">
-                        The award-winning MyBell app lets you manage all of your Bell services any time, anywhere, from the moment you order them.
-                    </span>
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="card-row">
+                        <h2>SUMMARY</h2>
+                        <div class="description">
+                            A seasoned iOS Developer with 8+ years of expertise in delivering high-quality mobile applications. Expert in Swift, iOS development, web development, and pursuing mobile excellence. Demonstrated leadership in managing teams and solo projects effectively. Adept at problem-solving and adapting to new technologies. Seeking to leverage deep technical skills in a challenging iOS Developer role to drive innovation and contribute to team success.
+                        </div>
+                    </div>
+                    <div class="card-row">
+                        <h2>EXPERIENCE</h2>
+                        <div class="item">
+                            <h2>iOS Developer</h2>
+                            <h3 class="blue-color">Quantrics Enterprise Inc.</h3>
+                            <div class="date-location row">
+                                <div class="col-sm-3">
+                                    🗓️ 05/2023 - Present
+                                </div>
+                                <div class="col-sm">
+                                    📍 Taytay Rizal, Philippines
+                                </div>
+                            </div>
+                            <ul class="list">
+                                <li>Played a key role in the development of a few projects, collaborating with a team of iOS developers to deliver key features and functionalities.</li>
+                                <li>Worked closely with team members to troubleshoot issues, optimize performance, and ensure project milestones were met on each sprint.</li>
+                                <li>Successfully worked with developers from diverse nationalities and cultural backgrounds, fostering a collaborative and inclusive team environment.</li>
+                                <li>Demonstrated key project milestones and gathered feedback to ensure alignment with stakeholder expectations.</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="item">
+                            <h2>iOS Developer</h2>
+                            <h3 class="blue-color">Time Machine Co., Ltd.</h3>
+                            <div class="date-location row">
+                                <div class="col-sm-3">
+                                    🗓️ 05/2022 - 05/2023
+                                </div>
+                                <div class="col-sm">
+                                    📍 Shibuya-ku, Tokyo
+                                </div>
+                            </div>
+                            <ul class="list">
+                                <li>Independently managed the full lifecycle of the app development, from concept through delivery and post-launch support.</li>
+                                <li>Solely responsible for the development and maintenance, ensuring robust performance and user satisfaction.</li>
+                                <li>Collaborated closely with the Chief Technology Officer (CTO) to implement new features and optimize the performance of the app.</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="item">
+                            <h2>iOS Developer</h2>
+                            <h3 class="blue-color">Domestic Cat Software</h3>
+                            <div class="date-location row">
+                                <div class="col-sm-3">
+                                    🗓️ 09/2022 - 01/2023
+                                </div>
+                                <div class="col-sm">
+                                    📍 Melbourne, Victoria, Australia
+                                </div>
+                            </div>
+                            <ul class="list">
+                                <li>Conducted code reviews, provided feedback, and resolved technical issues to maintain high-quality codebase and application performance.</li>
+                                <li>Crafted and maintained technical documentation, ensuring seamless onboarding for new developers and clear understanding among non-technical stakeholders.</li>
+                                <li>Played a pivotal role as a key contributor in the development of an innovative fitness application, contributing to its success and user experience enhancement.</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="item">
+                            <h2>iOS Developer</h2>
+                            <h3 class="blue-color">CODY Web Development Inc.</h3>
+                            <div class="date-location row">
+                                <div class="col-sm-3">
+                                    🗓️ 08/2020 - 08/2022
+                                </div>
+                                <div class="col-sm">
+                                    📍 Cebu City, Philippines
+                                </div>
+                            </div>
+                            <ul class="list">
+                                <li>Spearheaded the migration of an existing iOS app, ensuring a smooth transition and maintaining app functionality and performance.</li>
+                                <li>Coordinated with cross-functional teams to develop and implement migration strategies, minimizing downtime and user disruption.</li>
+                                <li>Directed and supervised a team of iOS developers throughout the entire project lifecycle, ensuring timely delivery and adherence to quality standards.</li>
+                                <li>Coordinated team efforts, assigning tasks, and providing technical guidance to team members.</li>
+                                <li>Conducted code reviews, provided feedback, and resolved technical issues to maintain high-quality codebase and application performance.</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="item">
+                            <h2>iOS Developer / Back-end Developer</h2>
+                            <h3 class="blue-color">Forty Degrees Celsius Inc.</h3>
+                            <div class="date-location row">
+                                <div class="col-sm-3">
+                                    🗓️ 05/2015 - 07/2020
+                                </div>
+                                <div class="col-sm">
+                                    📍 Cebu City, Philippines
+                                </div>
+                            </div>
+                            <ul class="list">
+                                <li>Pioneered the API Team to support the mobile development teams.</li>
+                                <li>Played a pivotal role as a key contributor in the development of an innovative online ESL application, contributing to its success and user experience enhancement.</li>
+                                <li>Pioneered the Teacher Exam Feature.</li>
+                                <li>Optimized SQL queries and function logic to enhance the system’s overall efficiency.</li>
+                                <li>Delivered proficient troubleshooting and effective remediation for web applications, swiftly addressing issues and minimizing disruptions.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-row">
+                        <h2>EDUCATION</h2>
+                        <div class="item">
+                            <h2>Bachelor of Science: Information Technology</h2>
+                            <h3 class="blue-color">Asian College of Technology</h3>
+                            <div class="date-location row">
+                                <div class="col-sm-3">
+                                    🗓️ 06/2011 - 03/2015
+                                </div>
+                                <div class="col-sm">
+                                    📍 Cebu City, Philippines
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="company_row">
-                    <h4>Virgin Mobile <span>(Quantrics Enterprises Inc.)</span></h4>
-                    <span class="sub_description">
-                        The My Account app lets you manage your account 24/7 from your phone. Pay your bill, check your usage, grab a travel pass and so much more.
-                    </span>
-                </div>
-                <div class="company_row">
-                    <h4>Lucky Mobile <span>(Quantrics Enterprises Inc.)</span></h4>
-                    <span class="sub_description">
-                        Lucky Mobile Network App services right from your phone.
-                    </span>
-                </div>
-                <div class="company_row">
-                    <h4>Templ <span>(Domestic Cat Software)</span></h4>
-                    <span class="sub_description">
-                        Fitness app that helps people get relief from pain and mobility problems due to musculoskeletal issues. It assists users in improving their overall health and being. The app features a list of programs, sessions, exercises, wellbeing and nutrition. The user can select a program and follow the exercise by playing the video.
-                    </span>
-                </div>
-                <div class="company_row">
-                    <h4>JINS (US) <span>(Cody Web Development  Inc.)</span></h4>
-                    <span class="sub_description">
-                        This application is used in a physical store (JINS Store). Think of a local eyewear shop where you are assisted by the staff and with the help of this app it helps finding the eyeglasses frame and other processes in the store in an instant. The app features searching for eyeglasses frame, creating an order, submitting the client’s eyeglasses prescription, and searching for the client’s orders.
-                    </span>
-                </div>
-                <div class="company_row">
-                    <h4>名刺DE請求 <span>(Cody Web Development  Inc.)</span></h4>
-                    <span class="sub_description">
-                        A business card management app. The app features a list of contacts, importing contacts from iPhone, Gmail, and Schecon (third party service), creating quotation and invoice and viewing it on a pdf viewer, sending quotation or invoice to selected contacts. It also offers job searching.
-                    </span>
-                </div>
-                <div class="company_row">
-                    <h4>MacheTalk <span>(Forty Degrees Celsius Inc.)</span></h4>
-                    <span class="sub_description">
-                        A live viewing application that allows you to have a "two-handed" conversation like a video call ♪ Enjoy real-time communication! It is similar to Twitch where you can go live and interact with  the viewers of your stream through chat. It also offers private messaging, audio call, and video call with other users you are connected with.
-                    </span>
-                </div>
-                <div class="company_row">
-                    <h4>MacheTalk Live <span>(Forty Degrees Celsius Inc.)</span></h4>
-                    <span class="sub_description">
-                        Live streaming app that makes friends with a little killing time! It is similar to Twitch but you are just a viewer of the stream or live broadcast and you can still interact with the broadcaster through chat. It also offers private messaging, audio call, and video call with other users you are connected with. It has in-app purchases to buy coins. A coin is used to view a live broadcast and send gifts.
-                    </span>
-                </div>
-                <div class="company_row">
-                    <h4>NativeCamp. <span>(Forty Degrees Celsius Inc.)</span></h4>
-                    <span class="sub_description">
-                        NativeCamp is an ESL online tutoring school in Japan. Lessons are provided via a unique language platform. NativeCamp is one of the rare online schools in the world that does not use Skype. Teachers usually use the browser (Chrome / Firefox) to do a lesson with a student. Students can use the browser or the application  (iOS / Android).
-                    </span>
-                </div>
-            </div>
-            <!-- Education row -->
-            <div id="education_row">
-                <h3 class="row_header">EDUCATION</h3>
-                <div class="company_row">
-                    <h4>Asian College of Technology, BSIT, <span>Cebu City Philippines</span></h4>
-                    <span class="sub_description">2011 - 2015</span>
-                </div>
-            </div>
-            <!-- Awards -->
-            <div id="awards_row">
-                <h3 class="row_header">AWARDS</h3>
-                <div class="company_row">
-                    <h4>Cum Laude <span>Asian College of Technology, Cebu City Philippines</span></h4>
+                <div class="col-sm-5">
+                    <div class="card-row">
+                        <h2>PROJECTS</h2>
+                        <div class="item">
+                            <h2>名刺DE請求</h2>
+                            <div class="description">
+                                Solely managed the full lifecycle of the app development, from concept through delivery and post-launch support. 
+                                <br>
+                                <a href="https://apps.apple.com/us/app/%E5%90%8D%E5%88%BAde%E8%AB%8B%E6%B1%82/id1627405079">App link</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="item">
+                            <h2>JINS</h2>
+                            <div class="description">Spearheaded the migration of an existing iOS app to use Shopify API. The app is used by the staff in-store to find JINS products, create orders, create eye appointments, and track the order.
+                                <br>
+                                <a href="https://www.jins.com/jp/">www.jins.com/jp/</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="item">
+                            <h2>Templ</h2>
+                            <div class="description">Played a pivotal role in developing and launching the fitness application, captivating a wide audience ensuring a seamless user experience.
+                                <br>
+                                <a href="https://www.templapp.com/">www.templapp.com</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="item">
+                            <h2>Machetalk</h2>
+                            <div class="description">
+                                Pioneered the development of Machetalk. Developed few features, login, home feed, user profile and settings feature to be specific. Lead the iOS Development team.
+                                <br>
+                                <a href="https://machetalk.jp/">machetalk.jp</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="item">
+                            <h2>NativeCamp</h2>
+                            <div class="description">
+                                Developed a few web features. Pioneered the API team to support mobile (iOS and Android). NativeCamp is one of the leading online language platforms.
+                                <br>
+                                <a href="https://nativecamp.net/">nativecamp.net</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-row">
+                        <h2>ACHIEVEMENTS</h2>
+                        <div class="item">
+                            <h2>🎖️ Skyway Migration Recognition</h2>
+                            <div class="description">
+                                Acknowledged by the Company for the successful migration to WebRTC technology, resulting in enhanced web application performance and significant cost savings for the company.
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="item">
+                            <h2>⭐️ Launch of Teacher Exam</h2>
+                            <div class="description">
+                                Pioneered the web development and successfully launched Teacher Exam Feature. The feature showcases online examinations to applicants who want to be a teacher in NativeCamp.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-row">
+                        <h2>SKILLS</h2>
+                        <div class="d-flex flex-wrap">
+                            <div class="p-2 bd-highlight skill-item">Swift</div>
+                            <div class="p-2 bd-highlight skill-item">Unit Testing</div>
+                            <div class="p-2 bd-highlight skill-item">Agile Methodology</div>
+                            <div class="p-2 bd-highlight skill-item">iOS Development</div>
+                            <div class="p-2 bd-highlight skill-item">SwiftUI</div>
+                            <div class="p-2 bd-highlight skill-item">SOLID Principles</div>
+                            <div class="p-2 bd-highlight skill-item">Github Actions</div>
+                            <div class="p-2 bd-highlight skill-item">MVC</div>
+                            <div class="p-2 bd-highlight skill-item">MVVM-R</div>
+                            <div class="p-2 bd-highlight skill-item">MVP-R</div>
+                            <div class="p-2 bd-highlight skill-item">ReactiveSwift</div>
+                            <div class="p-2 bd-highlight skill-item">RxSwift</div>
+                            <div class="p-2 bd-highlight skill-item">Fastlane</div>
+                            <div class="p-2 bd-highlight skill-item">Firebase</div>
+                            <div class="p-2 bd-highlight skill-item">Javascript</div>
+                            <div class="p-2 bd-highlight skill-item">Git</div>
+                            <div class="p-2 bd-highlight skill-item">CSS</div>
+                            <div class="p-2 bd-highlight skill-item">PHP</div>
+                            <div class="p-2 bd-highlight skill-item">Laravel</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
